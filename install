@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TEENSY_LOADER_CLI="../teensy/teensy_loader_cli/teensy_loader_cli"
+
+${TEENSY_LOADER_CLI} -mmcu=at90usb1286 -w dht22.hex
